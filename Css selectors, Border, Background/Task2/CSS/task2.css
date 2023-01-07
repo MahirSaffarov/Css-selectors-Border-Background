@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    margin-left: 2px;
+}
+body{
+    background-color: rgb(210,219,218);
+}
+h1{
+    margin-bottom: 25px;
+}
+ul li a{
+    color: rgb(234,146,194);
+}
+ul li{
+    margin-left: 20px;
+}
+p{
+    background-color: rgb(254,105,181);
+    margin-bottom: 50px;
+    height: 20px;
+    width: 500px;
+    border-radius: 3px;
+    padding-left: 5px;
+}

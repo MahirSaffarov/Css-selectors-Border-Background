@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(33,42,45);
+}
+.center{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.slogan{
+    background-color: rgb(54,86,91);
+    color: rgb(173,200,208);
+    width: 900px;
+    height: 200px;
+    padding-left: 83px;
+    padding-top: 61px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.navbar{
+    background-color: rgb(49,56,59);
+    margin-top: 5px;
+    width: 900px;
+    height: 60px;
+}
+.navbar ul{
+    display: flex;
+    gap: 70px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(209, 210, 210);
+}
+.forflex{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 76px;
+    color: rgb(132,142,144);
+}
+.main{
+    width: 624px;
+    margin-top: 25px;
+}
+.main h2{
+    margin-bottom: 10px;
+}
+.main .first-head{
+    border-bottom: 1px solid rgba(132,142,144,0.6);
+    padding-bottom: 15px;
+}
+.section{
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+}
+.main .section .subscription{
+    width: 272px;
+    border-right: 1px solid rgba(132,142,144,0.3);
+    padding-right: 20px;
+}
+.main .section .services{
+    width: 295px;
+}
+.main button{
+    background-color: rgb(139,154,159);
+    width: 90px;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.sidebar{
+    margin-top: 25px;
+    width: 170px;
+}
+.sidebar h3{
+    margin-bottom: 20px;
+}
+.sidebar ul li a{
+    color: rgb(132,142,144);
+}
+.sidebar ul{
+    margin-bottom: 40px;
+}
+.sidebar p{
+    margin-top: 30px;
+}
+.copyright{
+    color: rgb(132,142,144);
+    text-align: center;
+    border-top: 1px solid rgba(132,142,144,0.3);
+    margin-top: 10px;
+    padding-top: 10px;
+}
